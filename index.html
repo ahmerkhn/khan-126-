@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exprance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Exprance Tracker</h1>
+        <div class="input-section">
+            <label for="expense", class= "heading">Expense:</label>
+            <input type="number" id="expense" placeholder="Enter expense">
+            <button onclick="addExpense()">Add Expense</button>
+            <label for="income">Income:</label>
+            <input type="number" id="income" placeholder="Enter income">
+            <button onclick="addIncome()">Add Income</button>
+        </div>
+        <div id="expenses"></div>
+        <div id="incomes"></div>
+        <div id="savings"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
